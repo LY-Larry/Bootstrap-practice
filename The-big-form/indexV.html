@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BASIC HISTORY QUESTIONNAIRE-DOGS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <style>
+      label {
+        font-size: 14px;
+      }
+      .ML {
+        font-size: 14px;
+        background: white;
+      }
+    </style>
+  </head>
+  <body style="background-color: #e2e8f0">
+    <section>
+      <div class="container">
+        <h2
+          class="p-3 mt-3 rounded"
+          style="background-color: #4338ca; color: white"
+        >
+          &nbsp; Basic History Questionnaire--Dogs
+        </h2>
+        <p>
+          The questionnaire that follows focuses on all aspects of your dog's
+          behavior and health issues that could contribute to any behavioral
+          concerns. To interpret this information in the most detailed possible
+          light it would be helpful for you to list your dog's weight and your
+          dog's body condition score. If you do not know your dog's body
+          condition score, please go to the websites listed to see the scoring
+          systems routinely used
+        </p>
+        <a href="www.petslimmers.com/shapedog.htm"
+          >www.petslimmers.com/shapedog.htm</a
+        >
+        <br />
+        <a href="www.purina.com/dog/weight-and-exercise/bodycondition.spx"
+          >www.purina.com/dog/weight-and-exercise/bodycondition.spx</a
+        >
+      </div>
+    </section>
+
+    <section class="mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <label for="veterinary_name" class="form-label mb-0"
+              >Dog's weight &nbsp;</label
+            >
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="weight_unit"
+                id="weight_kg"
+                value="option1"
+              />
+              <label class="form-check-label" for="exampleRadios1">kg</label>
+            </div>
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="weight_unit"
+                id="weight_lb"
+                value="lb"
+              />
+              <label class="form-check-label" for="exampleRadios2">lb</label>
+            </div>
+            <input
+              type="email"
+              class="form-control form-control-sm"
+              id="veterinary_name"
+              placeholder=""
+            />
+          </div>
+          <div class="col">
+            <label for="form_date" class="form-label mb-0"
+              >Body Condition Score/BCS</label
+            >
+            <input
+              type="number"
+              class="form-control form-control-sm"
+              id="form_date"
+              placeholder=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <label for="veterinary_name" class="form-label mb-0 mt-2">
+              Has this dog been neutered? &nbsp;
+            </label>
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1"> Yes </label>
+            </div>
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios2"
+                value="option2"
+              />
+              <label class="form-check-label" for="exampleRadios2"> No </label>
+            </div>
+            <input
+              type="email"
+              class="form-control form-control-sm"
+              id="veterinary_name"
+              placeholder="If yes, please state reason for neutering"
+            />
+          </div>
+
+          <div class="col-4">
+            <label for="" class="form-label mb-0 mt-2"
+              >How old, in month, was the dog when neutered?</label
+            >
+            <input
+              type="number"
+              class="form-control form-control-sm"
+              id="form_date"
+              placeholder=""
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="" class="form-label mb-0 mt-2"
+              >Any behavioural change after neutering?</label
+            >
+            <input
+              type="number"
+              class="form-control form-control-sm"
+              id="form_date"
+              placeholder=""
+            />
+          </div>
+          <div class="col">
+            <label for="veterinary_name" class="form-label mb-0 mt-2">
+              Has this dog been neutered?
+            </label>
+            <select class="form-control form-control-sm">
+              <option>Please select</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="veterinary_name" class="form-label mb-0 mt-2">
+              If you have not yet bred this dog, do you plan on breeding him or
+              her?
+            </label>
+            <select class="form-control form-control-sm">
+              <option>Please select</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+
+          <div class="col">
+            <label for="form_date" class="form-label mb-0 mt-2"
+              >Dog's date of birth</label
+            >
+            <input
+              type="date"
+              class="form-control form-control-sm"
+              id="form_date"
+              placeholder=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <p
+          class="p-3 mt-5 rounded"
+          style="background-color: #4338ca; color: white"
+        >
+          &nbsp; Dog's History
+        </p>
+        <div class="row">
+          <div class="col">
+            <label for="form_date" class="form-label mb-0 mt-2"
+              >Dog's age at completion of this questionnaire (in months)</label
+            >
+            <input
+              type="number"
+              class="form-control form-control-sm"
+              id="form_date"
+              placeholder=""
+            />
+          </div>
+
+          <div class="col">
+            <label for="form_date" class="form-label mb-0 mt-2"
+              >How old was your pet when you acquired him or her (in
+              months)</label
+            >
+            <input
+              type="number"
+              class="form-control form-control-sm"
+              id="form_date"
+              placeholder=""
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <label for="veterinary_name" class="form-label mb-0 mt-2">
+              Has this pet had other owners?
+            </label>
+            <select class="form-control form-control-sm">
+              <option>Please select</option>
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5+</option>
+              <option>Unknown</option>
+            </select>
+          </div>
+
+          <div class="col-9">
+            <label for="form_date" class="form-label mb-0 mt-2"
+              >If yes, Why was pet given up?</label
+            >
+            <input
+              type="number"
+              class="form-control form-control-sm"
+              id="form_date"
+              placeholder=""
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <label for="form_date" class="form-label mb-0 mt-2">
+              How long have you had this dog, in months?
+            </label>
+            <input
+              type="number"
+              class="form-control form-control-sm"
+              id="form_date"
+              placeholder=""
+            />
+          </div>
+
+          <div class="col">
+            <label for="veterinary_name" class="form-label mb-0 mt-2">
+              Where did you get this pet?
+            </label>
+            <select class="form-control form-control-sm">
+              <option>Please select</option>
+              <option>a. Stray/found</option>
+              <option>b. Breeder-serious show/performance breeder</option>
+              <option>c. Breeder-backyard breeder</option>
+              <option>d. SOCA/Humane shelter</option>
+              <option>e. Breed rescue service</option>
+              <option>f. Newspaper adoption ad (not breeder)</option>
+              <option>g. Pet store</option>
+              <option>h. Friend</option>
+              <option>i. Other (Please explain)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <label for="form_date" class="form-label mb-0 mt-2">
+              Why did you get this dog? (Please include where if you selected
+              other)
+            </label>
+            <input
+              type="number"
+              class="form-control form-control-sm"
+              id="form_date"
+              placeholder=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <p
+          class="p-3 mt-5 rounded"
+          style="background-color: #4338ca; color: white"
+        >
+          &nbsp; Dog's Health and Liftstyle
+        </p>
+        <div class="row">
+          <div class="col">
+            <label for="form_date" class="form-label mb-0 mt-2">
+              When was your dog last vaccinated?
+            </label>
+            <input
+              type="date"
+              class="form-control form-control-sm"
+              id="form_date"
+              placeholder=""
+            />
+          </div>
+
+          <div class="col">
+            <label for="form_date" class="form-label mb-0 mt-2">
+              When was your last complete veterinary check up?
+            </label>
+            <input
+              type="date"
+              class="form-control form-control-sm"
+              id="form_date"
+              placeholder=""
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col mt-2">
+            <label for="veterinary_name" class="form-label mb-0"
+              >Does this dog have any physical problems that your veterinarian
+              has noted? &nbsp;
+            </label>
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1"> Yes </label>
+            </div>
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios2"
+                value="option2"
+              />
+              <label class="form-check-label" for="exampleRadios2"> No </label>
+            </div>
+            <input
+              type="email"
+              class="form-control form-control-sm"
+              id="veterinary_name"
+              placeholder="If yes, what specifically"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col mt-2">
+            <label for="veterinary_name" class="form-label mb-0"
+              >Is your dog taking any medication for any of the medical problems
+              discussed above? &nbsp;
+            </label>
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1"> Yes </label>
+            </div>
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios2"
+                value="option2"
+              />
+              <label class="form-check-label" for="exampleRadios2"> No </label>
+            </div>
+            <input
+              type="email"
+              class="form-control form-control-sm"
+              id="veterinary_name"
+              placeholder="If yes, what specifically"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col mt-2">
+            <label for="veterinary_name" class="form-label mb-0"
+              >Is your dog taking heartworm preventative? &nbsp;
+            </label>
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1"> Yes </label>
+            </div>
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios2"
+                value="option2"
+              />
+              <label class="form-check-label" for="exampleRadios2"> No </label>
+            </div>
+            <input
+              type="email"
+              class="form-control form-control-sm"
+              id="veterinary_name"
+              placeholder="If yes, what brand?"
+            />
+          </div>
+
+          <div class="col mt-2">
+            <label for="veterinary_name" class="form-label mb-0"
+              >Is your dog taking flea or tick preventative? &nbsp;
+            </label>
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flea_preventative"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1"> Yes </label>
+            </div>
+            <div class="form-check form-check-inline mb-0">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flea_preventative"
+                id="exampleRadios2"
+                value="option2"
+              />
+              <label class="form-check-label" for="exampleRadios3"> No </label>
+            </div>
+            <input
+              type="email"
+              class="form-control form-control-sm"
+              id="veterinary_name"
+              placeholder="If yes, what brand?"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- All content should be written above script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
